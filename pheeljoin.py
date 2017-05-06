@@ -3,7 +3,7 @@ import sys
 from subprocess import call
 
 if not len(sys.argv) == 3:
-  print('python pheelsplitjoin.py INPUT_FILE_LIST OUTPUT_VIDEO')
+  print('python pheeljoin.py INPUT_FILE_LIST OUTPUT_VIDEO')
   exit()
 
 input_file_list = sys.argv[1]
