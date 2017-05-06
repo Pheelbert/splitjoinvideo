@@ -28,7 +28,7 @@ with open(timestamp_file) as file:
 split_filepath = output_filename + '_list.txt'
 split_list = open(split_filepath, 'w')
 index = 0
-for i in range(len(timestamps) - 1):
+for i in range(0, len(timestamps) - 1, 2):
   t1 = timestamps[i]
   t2 = timestamps[i + 1]
   output_file_indexed = output_filename + '_' + str(index) + '.' +  output_extension
