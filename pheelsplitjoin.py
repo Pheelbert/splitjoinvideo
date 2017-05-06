@@ -5,7 +5,7 @@ import tempfile
 import os
 
 if not len(sys.argv) == 4:
-  print('pheelsplitjoin.py INPUT_VIDEO TIME_STAMPS OUTPUT_VIDEO')
+  print('python pheelsplitjoin.py INPUT_VIDEO TIME_STAMPS OUTPUT_VIDEO')
   exit()
 
 input_file = sys.argv[1]
